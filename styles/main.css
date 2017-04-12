@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+html {
+    font-family: 'Shrikhand';
+}
+
+nav {
+    height: 80px;
+    width: 70%;
+    background-color: #62bcc0;
+    opacity: 0.8;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    transform: rotateZ(-20deg) translateX(-70px) translateY(5px);
+    z-index: 1;
+}
+
+nav ul#main-nav {
+    list-style-type: none;
+}
+
+nav ul#main-nav li {
+    padding: 10px;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul#main-nav li a {
+    padding: 10px;
+}
+
+nav ul#main-nav li:hover {
+    padding-right: 30px;
+}
+
+nav ul#main-nav li:hover ul {
+    display: block;
+}
+
+nav ul#main-nav li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav > ul#main-nav > li {
+    float: left;
+}
+
+nav ul#main-nav ul {
+    list-style-type: none;
+    background-color: #4f9a9e;
+    position: absolute;
+    display: none;
+    transform: translateY(24.1px);
+}
+
+
+img#mountain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
